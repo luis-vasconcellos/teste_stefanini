@@ -1,0 +1,6 @@
+<h2>Valor de saque: R$ {{ result.valor }}</h2>
+<h3>Quantidade de cédulas: {{ result.quantidades|length }}</h3>
+<h3>Distribuição de cédulas:</h3>
+{% for cedula, quantidade in result.quantidades %}
+  <p>{{ quantidade }} cédula{{ quantidade > 1 ? 's' : '' }} de R$ {{ cedula }}</p>
+{% endfor %}

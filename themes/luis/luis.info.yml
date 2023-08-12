@@ -1,0 +1,5 @@
+name: 'Luís'
+type: theme
+description: 'Stefanini'
+core_version_requirement: ^8
+base theme: seven

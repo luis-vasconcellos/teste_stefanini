@@ -1,0 +1,5 @@
+name: 'Saque'
+type: module
+description: 'Módulo para implementar um formulário de saque com cálculo de cédulas.'
+core_version_requirement: ^8 || ^9
+package: Custom
